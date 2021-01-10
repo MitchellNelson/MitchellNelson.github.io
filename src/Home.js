@@ -4,9 +4,11 @@ import "./style.css"
 function Home (props){
   return(
     <div class="home-container">
-    	<h1 class="home-name" >Mitchell Nelson</h1>
-    	<img src="profile.jpg"/>
-    	<p>I am a Software Engineer currently interested in learning React.js</p>
+    	<div class="home-content">
+	    	<h1 class="home-name" >Mitchell Nelson</h1>
+	    	<img src="profile.jpg"/>
+	    	<p>I am a Software Engineer based in the Minneapolis area with a passion for technology and creating music... or making technology that makes music</p>
+    	</div>
     </div>
   )
 }
