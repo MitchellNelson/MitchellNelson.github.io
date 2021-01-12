@@ -20,14 +20,16 @@ function Projects (props){
   };
 
   return(
-    <div class="projects">
-      <h2 class="section-title">Projects</h2>
-      <center>
-        <Project {...drumCV}/>
-        <Project {...beatCollab}/>
-        <Project {...drumCV}/>
-        <Project {...beatCollab}/>
-      </center>
+    <div class="projects center-column">
+      <div class="project-content">
+        <h2 class="section-title">Projects</h2>
+        <center>
+          <Project {...drumCV}/>
+          <Project {...beatCollab}/>
+          <Project {...drumCV}/>
+          <Project {...beatCollab}/>
+        </center>
+      </div>
     </div>
   )
 }
@@ -38,14 +40,15 @@ function Project (props){
   var gitHubLink = props.gitHubLink ? (<a href={props.gitHubLink} target="_blank"><img src="https://cdn.svgporn.com/logos/github-icon.svg"/></a>) : "";
   return(
     <div class="project">
-      
-      <span><span class="project-title">{props.title}</span>
-        <span span class ="project-links">{gitHubLink}{demoLink}</span>
-      </span>
-      
-      <p>{props.tech}</p>
       <img class="project-image" src={props.img}/>
-      <p>{props.description}</p>
+      <div class="project-text">
+        <span><span class="project-title">{props.title}</span>
+          <span class ="project-links"><span class="project-icon">{gitHubLink}</span>{demoLink}</span>
+        </span>
+        
+        <p>{props.tech}</p>
+        <p>{props.description}</p>
+      </div>
     </div>
   )
 }

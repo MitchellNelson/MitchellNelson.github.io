@@ -3,7 +3,7 @@ import "./style.css"
 
 function TechAndTools (props){
   return(
-    <div class="tech-and-TechAndTools">
+    <div class="tech-and-TechAndTools center-column">
     <h2 class="section-title">Tech and Tools</h2>
       <center>  
         <ul>

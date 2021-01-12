@@ -54,7 +54,7 @@ function Experiences (props){
   };
 
   return(
-    <div class="experiences">
+    <div class="experiences center-column">
       <div class="experiences-content">
         <h2 class="section-title">Experience</h2>
         <Experience {...vital}></Experience>
