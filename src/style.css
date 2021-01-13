@@ -42,7 +42,7 @@ body {
   min-height:100vh;
   text-align: justify;
   margin:0;
-  padding:0;
+  padding:1rem;
 }
 
 .home-content {
@@ -50,7 +50,7 @@ body {
   top:20vh;
   background-color: red;
   margin: 0 auto 0 auto;
-  width:30rem;
+  max-width:30rem;
   background-color: rgba(255, 255, 255, .2);  
   border-radius: 1rem;
   backdrop-filter: blur(5px);
@@ -141,7 +141,8 @@ body {
 }
 
 #projects{
-    background-image: url(https://wallpaperaccess.com/full/340434.png);
+    background: url(https://wallpaperaccess.com/full/340434.png);
+
 }
 
 .project{
@@ -169,6 +170,7 @@ body {
 }
 .project-links{
   float:right;
+  padding:.5rem;
 }
 
 .project-title{
@@ -185,10 +187,14 @@ body {
   border-top-right-radius: 1rem;
 }
 
-@media (max-width: 900px){
+@media (max-width: 1200px){
   .center-column{
     padding:5%;
   }  
+
+  .home-content {
+    top:10vh;
+  }
 
   .experienceTable{
     margin: 0 auto 1rem ;
@@ -200,10 +206,14 @@ body {
   }
 }
 
-@media (max-width: 800px){
+@media (max-width: 500px){
   .center-column{
     padding:3%;
   }  
+
+  .home-content {
+    top:10vh;
+  }
 
   .experienceTable{
     margin: 0 auto 1rem ;

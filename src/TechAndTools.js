@@ -14,6 +14,7 @@ function TechAndTools (props){
           <li><img src="https://cdn.svgporn.com/logos/vue.svg"/></li>
           <li><img src="https://cdn.svgporn.com/logos/python.svg"/></li>
           <li><img src="https://cdn.svgporn.com/logos/java.svg"/></li>
+          <li><img src="https://cdn.svgporn.com/logos/c-plusplus.svg"/></li>
         </ul>
       </center>
       <br/>
@@ -23,8 +24,7 @@ function TechAndTools (props){
           <li><img src="https://cdn.svgporn.com/logos/vim.svg"/></li>
           <li><img src="https://cdn.svgporn.com/logos/linux-tux.svg"/></li>
           <li><img src="https://cdn.svgporn.com/logos/macOS.svg"/></li>
-          <li><img src="https://cdn.svgporn.com/logos/css-3.svg"/></li>
-          <li><img src="https://cdn.svgporn.com/logos/html-5.svg"/></li>
+          <li><img src="https://cdn.svgporn.com/logos/git.svg"/></li>
         </ul>
       </center>
     </div>

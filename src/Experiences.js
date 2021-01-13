@@ -11,9 +11,9 @@ const circleIcon = <FontAwesomeIcon icon={faCircle}/>
 
 function Experiences (props){
   var vital = {
-    dateStart: "August 18",
-    dateEnd: "August 19",
-    accomplishments: ["did this", "did that", "didn't do that", "sure did do this"],
+    dateStart: "Jun 2020",
+    dateEnd: "Present",
+    accomplishments: [""],
     employer: "Vital Images",
     position: "Associate Software Engineer"
   };
@@ -84,7 +84,7 @@ function Experience (props){
       </div>
 <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          What I did
+          {props.dateStart} - {props.dateEnd}
         </AccordionSummary>
         <AccordionDetails>
                 <table>
