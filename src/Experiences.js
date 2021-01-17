@@ -54,13 +54,17 @@ function Experiences (props){
   };
 
   return(
-    <div class="experiences center-column">
-      <div class="experiences-content">
-        <h2 class="section-title">Experience</h2>
-        <Experience {...vital}></Experience>
-        <Experience {...ust}></Experience>
-        <Experience {...leidos}></Experience>
-        <Experience {...ustWeb}></Experience>
+    <div>
+      <div class="circle" id="circle1"></div>
+      <div class="circle" id="circle2"></div>
+      <div class="experiences center-column">
+        <div class="experiences-content">
+          <h2 class="section-title">Experience</h2>
+          <Experience {...vital}></Experience>
+          <Experience {...ust}></Experience>
+          <Experience {...leidos}></Experience>
+          <Experience {...ustWeb}></Experience>
+        </div>
       </div>
     </div>
   )

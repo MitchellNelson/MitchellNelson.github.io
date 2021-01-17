@@ -28,22 +28,25 @@ function Projects (props){
   };
   var snapArt = {
     title: "snap-art",
-    tech: "Javascript, Vue.js, Node.js, Websockets",
+    tech: "Python, Flask, Javascript",
     img: "images/gallary.jpg",
     gitHubLink: "https://github.com/RileyTschumper/MinneHack2020",
     demoLink: "https://www.youtube.com/watch?v=MC2t7IUA2lI&feature=emb_title",
     description: "MinneHack 2020 3rd place winner. Provides artwork identification by using a scale-invariant feature transform (SIFT) algorithm."
   };
   return(
-    <div class="projects center-column">
-      <div class="project-content">
-        <h2 class="section-title">Projects</h2>
-        <center>
-          <Project {...drumCV}/>
-          <Project {...beatCollab}/>
-          <Project {...reactDrumMachine}/>
-          <Project {...snapArt}/>
-        </center>
+    <div>
+      <div class="circle" id="circle1"></div>
+      <div class="projects center-column">
+        <div class="project-content">
+          <h2 class="section-title">Projects</h2>
+          <center>
+            <Project {...drumCV}/>
+            <Project {...beatCollab}/>
+            <Project {...reactDrumMachine}/>
+            <Project {...snapArt}/>
+          </center>
+        </div>
       </div>
     </div>
   )
